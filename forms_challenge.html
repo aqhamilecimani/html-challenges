@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Online Survey</title>
+</head>
+<body>
+     <h1>Be Coffee Savvy</h1>
+            <h2>By</h2>
+     <h3>Taking our survey</h3>
+<form>
+First name:<br>
+<input type="text" name="firstname" placeholder="Your first name"><br>
+Last name:<br>
+<input type="text" name="lastname" placeholder="Your last name"><br>
+Email:<br>
+<input type="email" name="Email" placeholder="Email"><br>
+Number:<br>
+<input type="number" name="number" placeholder="cell phone number"><br>
+Date of birth:<br>
+<input type="date"  name="Date"><br>
+<form>
+  <input type="radio" name="gender" value="Male">Male<br>
+<!--dont forget to extend the gender after closing your input tag-->
+  <input type="radio" name="gender" value="Female">Female<br>
+</form>
+Password:<br>
+<input type="password" name="password" placeholder="password"><br>
+
+<strong><h3>We would like to know more about you!</strong></h3>
+<ol>
+<li><p>How often do you visit coffee shops?</li></p>
+    <select name="visit">
+      <option value="daily">Daily</option>
+      <option value="weekly">Weekly</option>
+      <option value="monthly">Monthly</option>
+      <option value="never">Never</option>
+</select>
+<li><p>What is your favourite coffe shop?Where is it located?</li></p>
+Name:<br>
+<input type="text" name="name of coffee shop" placeholder="E.g MUGG N BEAN"><br>
+Location:<br>
+<input type="text" name="location" placeholder="E.g Kenilworth Center"><br>
+<li><p>What do you typically order to drink?</li></p>
+      <select name="beverages">
+        <option value="coffee">Coffee</option>
+        <option value="tea">Tea</option>
+        <option value="espresso">Espresso</optio>
+        <option value="cappucino">Cappucino</option>
+        <option value="other">Other</option>
+</select>
+<li><p>Do you prefer large,national chain coffee shops or small , privavely owned coffee shops?</li></p>
+<input type="checkbox" name="large,national chain coffee shop" value="coffe shop">Large, national chain coffee shop<br>
+<input type="checkbox" name="privavely owned coffee shops" value="coffee shop">Privavely owned coffee shops<br>
+</ol>
+
+Comment:<br>
+<textarea name="Comment" form="usrform" placeholder="Drop us a message"></textarea>
+<br>
+<button type="sumbit" value="Sumbit">Click to submit</button>
+<button type="reset" value="Reset">Reset</button>
+
+</form>
+
+</body>
+</html>
